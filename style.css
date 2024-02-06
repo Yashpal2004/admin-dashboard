@@ -19,8 +19,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
 }
 
 .search > input {
-  height: 30px;
+  height: 35px;
+  width: 40vw;
+  margin-left: 5px;
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.username {
+  display: flex;
+}
+
+.username > img {
+  border-radius: 50%;
+}
+
+.username > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; 
 }
